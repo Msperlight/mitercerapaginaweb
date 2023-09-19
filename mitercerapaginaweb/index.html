@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Marca Personal - Maestra de Discipulado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Transformando Vidas</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <p>"Soy Perla Janeth Saire Guarachi, una apasionada líder y maestra en la congregación. He enseñado y participado en ministerios de alabanza, comunicación y sonido, además de brindar apoyo en secretaría. Como seguidora de Cristo, me encanta ayudar y aconsejar a los demás. Mi objetivo es empoderar a nuevos seguidores de Cristo para que enfrenten la vida con confianza."</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portafolio</h2>
+        <div class="portfolio-item">
+            <img src="descarga.png" alt="Proyecto 1">
+            <p>Conociendonos</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="comedor.png" alt="Proyecto 2">
+            <p> ya amigos</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="confianza fases de la vida.png" alt="Proyecto 3">
+            <p>activando</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Si deseas ponerse en contacto conmigo, por favor utiliza el siguiente formulario o envía un correo electrónico a: <a href="mailto:perlightsagu@gmail.com">perlightsagu@gmail.com</a></p>
+        <form action="enviar.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Mi Marca Personal - Maestra de Discipulado</p>
+    </footer>
+</body>
+</html>
